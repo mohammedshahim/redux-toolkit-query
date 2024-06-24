@@ -1,3 +1,22 @@
 {
-  "todos": []
+  "todos": [
+    {
+      "id": "1719261274244",
+      "userId": 1,
+      "title": "one",
+      "completed": false
+    },
+    {
+      "id": "1719261301496",
+      "userId": 1,
+      "title": "two",
+      "completed": true
+    },
+    {
+      "id": "1719261480308",
+      "userId": 1,
+      "title": "twos",
+      "completed": false
+    }
+  ]
 }
