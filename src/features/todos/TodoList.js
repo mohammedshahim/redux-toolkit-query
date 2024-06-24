@@ -25,6 +25,7 @@ const TodoList = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         addTodo({
+            id: Date.now().toString(), // added to sort the todos properly
             userId: 1,
             title: newTodo,
             completed: false,
